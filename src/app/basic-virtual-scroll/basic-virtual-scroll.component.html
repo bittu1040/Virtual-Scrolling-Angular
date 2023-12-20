@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="row pt-4">
+        <div class="col-md-6 d-flex justify-content-center"  >
+            <cdk-virtual-scroll-viewport itemSize="50" class="example-viewport">
+                <div *cdkVirtualFor="let item of items" class="example-item">{{item}}</div>
+            </cdk-virtual-scroll-viewport>
+        </div>
+    </div>
+</div>
